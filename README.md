@@ -4,8 +4,6 @@ A hands-on **ROS 2 Humble workspace** containing Python-based robotics exercises
 
 This repository documents my learning and development journey with ROS 2, focusing on node development, inter-node communication, services, robot movement, and autonomous control.
 
-**Repository:** [github.com/sivasankaran276/ros2_ws](https://github.com/sivasankaran276/ros2_ws)
-
 ---
 
 ## Tech Stack
