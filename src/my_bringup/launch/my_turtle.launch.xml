@@ -1,0 +1,8 @@
+<launch>
+
+       <node pkg="python_package" exec="turspawn" />
+       <node pkg="python_package" exec="turspasub2" />
+       <node pkg="turtlesim" exec="turtlesim_node" />
+    
+</launch>
+
