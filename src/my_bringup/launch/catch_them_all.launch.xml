@@ -1,0 +1,13 @@
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node" name="turtlesim" />
+
+  <node pkg="python_package" exec="turtle_spawner" name="turtle_spawner" output="screen">
+    <param name="spawn_frequency" value="0.5" />
+    <param name="turtle_name_prefix" value="target_turtle" />
+  </node>
+
+  <node pkg="python_package" exec="turtle_controller" name="turtle_controller" output="screen">
+    <param name="catch_closest_turtle_first" value="true" />
+    <param name="catch_tolerance" value="0.5" />
+  </node>
+</launch>

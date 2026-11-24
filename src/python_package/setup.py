@@ -48,6 +48,8 @@ setup(
             "rectangle=python_package.rectangle:main",
             "rectangleser=python_package.rectangleser:main",
             "turspasub2=python_package.turspasub2:main",
+            'turtle_spawner = python_package.turtle_spawner:main',
+            'turtle_controller = python_package.turtle_controller:main',
         ],
     },
 )
